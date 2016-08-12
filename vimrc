@@ -2,8 +2,8 @@
 " avoid issues with vi compatibility
 set nocompatible
 
-" vimrc settings for Windows from tuxproject's _vimrc. Keep for
-" default Windows behavior in Vim
+" vimrc settings for Windows from tuxproject's _vimrc. Keep for default
+" Windows behavior in Vim
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
