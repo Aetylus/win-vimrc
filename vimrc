@@ -11,6 +11,10 @@ behave mswin
 " Basic vim behavior and settings
 syntax enable
 set guifont=Consolas:h11:cANSI:qDRAFT
+" DirectX
+if has("directx")
+   set renderoptions=type:directx,geom:1,taamode:1
+endif
 set encoding=utf-8
 set number
 set autoindent
